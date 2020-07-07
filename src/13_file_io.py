@@ -25,3 +25,4 @@ print(foo.closed) # Checking if foo closed with "with"
 
 with open("src/bar.txt", "w") as bar:
     bar.write("1st line\n2nd line\n3rd line\n")
+print(foo.closed)
