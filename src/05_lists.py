@@ -28,4 +28,4 @@ print("length of list x: ", len(x))
 # Print all the values in x multiplied by 1000
 print("all the values in x multiplied by 1000:")
 for item in x:
-    print(item * 1000)
+    print(item*1000)
