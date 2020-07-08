@@ -15,7 +15,7 @@ The advantage is that the file is properly closed after its suite finishes, even
 """
 with open('src/foo.txt') as foo:
     print(foo.read())
-print(foo.closed) # Checking if foo closed with "with"
+print(foo.closed)                   # Checking if foo closed with "with"
 
 
 # Open up a file called "bar.txt" (which doesn't exist yet) for
@@ -25,4 +25,3 @@ print(foo.closed) # Checking if foo closed with "with"
 
 with open("src/bar.txt", "w") as bar:
     bar.write("1st line\n2nd line\n3rd line\n")
-print(foo.closed)
