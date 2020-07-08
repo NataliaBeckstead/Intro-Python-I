@@ -1,16 +1,16 @@
-vowelcount = 0
+
 
 def countVowels(str):
     vowels = ('a', 'e', 'i', 'o', 'u')
+    vowelcount = 0
     for x in str:
         if x in vowels:
-            global vowelcount
             vowelcount += 1
+    return vowelcount
 
 
-countVowels("there are so many vowels in this string")
-countVowels("aaa")
-print(vowelcount)
+print(countVowels("there are so many vowels in this string"))
+print(countVowels("aaa"))
 
 """
 JavaScript Code
